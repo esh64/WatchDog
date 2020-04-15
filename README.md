@@ -4,6 +4,8 @@ A analog Watchdog circuit for Raspberry Pi and others Single Board Computers. It
 # Why not using a microcontroller?
 An Arduino board could be used for the watchdog, but it is way more expensive and it's a digital circuit. That means it would stop working properly when in high temperatures wich make it's useless in critical situations like in remote IOT aplications where you can't simply touch your Raspberry Pi board to reset when it freezes. Besides, the arduino board will require an power supply when the 555Circuit can simply be powered by the Raspberry PI
 
+![Circuit](https://raw.githubusercontent.com/esh64/WatchDog/master/Screenshot_20200415_120305.png)
+
 # How does this works?
 There is two main components in the project:
   ![Inversion gate](https://raw.githubusercontent.com/esh64/WatchDog/master/invesionGate.png)
