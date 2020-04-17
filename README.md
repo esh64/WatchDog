@@ -1,5 +1,5 @@
 # WatchDog
-A analog, cheap and simple Watchdog circuit for Raspberry Pi and others Single Board Computers. It's not safe to count on Digital Circuits when facing extreme situations like high temperatures. It's make more critical when your computer is running remote and you cant' reset as you please when it freezes. The solution for this problem is a NE555-based Watchdog that is 100% analog and can face high temperatures and voltages.
+An analog, cheap and simple Watchdog circuit for Raspberry Pi and others Single Board Computers. It's not safe to count on Digital Circuits when facing extreme situations like high temperatures. It's make more critical when your computer is running remote and you cant' reset as you please when it freezes. The solution for this problem is a NE555-based Watchdog that is 100% analog and can face high temperatures and voltages.
 
 # Why not using a microcontroller?
 An Arduino board could be used for the watchdog, but it is way more expensive and it's a digital circuit. That means it would stop working properly when in high temperatures wich make it's useless in critical situations like in remote IOT aplications where you can't simply touch your Raspberry Pi board to reset when it freezes. Besides, the arduino board will require an power supply when the 555Circuit can simply be powered by the Raspberry PI
